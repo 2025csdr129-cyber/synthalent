@@ -28,8 +28,20 @@ Synthalent is a next-generation, prompt-driven marketplace that bridges the gap 
 ---
 
 ## ⚙️ Getting Started & Installation
-# Clone the repository
-git clone https://github.com/your-username/synthalent.git
+###Future Roadmap
+Database Integration: Implementation of live PostgreSQL/MongoDB persistence layers.
+
+Real-Time Collaboration: Real-time messaging and collaborative brief-editing workspaces.
+
+Containerized Deployment: Dockerized configuration optimized for cloud serverless and Vercel hosting.
+
+Follow these steps to set up and run the project locally in your development environment:
+
+
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/your-username/synthalent.git](https://github.com/your-username/synthalent.git)
 cd synthalent
 
 # Install project dependencies
@@ -45,15 +57,6 @@ npm run dev
 npm run build
 npm run lint
 
-###Future Roadmap
-Database Integration: Implementation of live PostgreSQL/MongoDB persistence layers.
-
-Real-Time Collaboration: Real-time messaging and collaborative brief-editing workspaces.
-
-Containerized Deployment: Dockerized configuration optimized for cloud serverless and Vercel hosting.
-
-Follow these steps to set up and run the project locally in your development environment:
-'''bash
 synthalent/
 ├── dist/                # Production build output
 ├── node_modules/        # Project dependencies
@@ -67,4 +70,10 @@ synthalent/
 ├── .oxlintrc.json       # Linter configuration
 ├── package.json         # Project dependencies & scripts
 └── README.md            # Project documentation
+*****Database Integration: Implementation of live PostgreSQL/MongoDB persistence layers.
+
+Real-Time Collaboration: Real-time messaging and collaborative brief-editing workspaces.
+
+Containerized Deployment: Dockerized configuration optimized for cloud serverless and Vercel hosting.
+
 
