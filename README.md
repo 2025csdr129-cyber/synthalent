@@ -1,4 +1,4 @@
-# Synthalent (Kampus.VC) 🚀
+# Synthalent 🚀
 
 > **AI-Powered Content Creator Marketplace & Dynamic Creative Ecosystem**
 
