@@ -76,4 +76,8 @@ Real-Time Collaboration: Real-time messaging and collaborative brief-editing wor
 
 Containerized Deployment: Dockerized configuration optimized for cloud serverless and Vercel hosting.
 
+/// TO DEPLOY THE WEBSITE USE THE BELOW LINK//
+https://synthalent.vercel.app/
+
+      
 
