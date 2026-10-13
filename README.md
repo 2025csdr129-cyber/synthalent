@@ -44,19 +44,7 @@ npm run dev
 # Run build compilation and lint checks for validation
 npm run build
 npm run lint
-synthalent/
-├── dist/                # Production build distribution output
-├── node_modules/        # Project dependencies
-├── public/              # Static assets, icons, and favicons
-├── src/
-│   ├── components/      # UI components, discovery grid, and brief generators
-│   ├── store/           # Zustand state persistence stores
-│   ├── App.tsx          # Main application router and core layout
-│   └── main.tsx         # Application entry point
-├── .env.example         # Environment variables configuration template
-├── .oxlintrc.json       # Linter configuration rules
-├── package.json         # Project dependencies and script runner configurations
-└── README.md            # Project documentation
+
 ###Future Roadmap
 Database Integration: Implementation of live PostgreSQL/MongoDB persistence layers.
 
@@ -65,4 +53,18 @@ Real-Time Collaboration: Real-time messaging and collaborative brief-editing wor
 Containerized Deployment: Dockerized configuration optimized for cloud serverless and Vercel hosting.
 
 Follow these steps to set up and run the project locally in your development environment:
+'''bash
+synthalent/
+├── dist/                # Production build output
+├── node_modules/        # Project dependencies
+├── public/              # Static assets & favicons
+├── src/
+│   ├── components/      # UI components & feature modules
+│   ├── store/           # Zustand state stores
+│   ├── App.tsx          # Main application router & layout
+│   └── main.tsx         # Application entry point
+├── .env.example         # Environment variables template
+├── .oxlintrc.json       # Linter configuration
+├── package.json         # Project dependencies & scripts
+└── README.md            # Project documentation
 
