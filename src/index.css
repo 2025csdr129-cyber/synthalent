@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --olive-50: #f5f7f2;
+    --olive-100: #e9efe2;
+    --olive-200: #d6e2c8;
+    --olive-300: #b9cfa5;
+    --olive-400: #8fae6f;
+    --olive-500: #6b8f41;
+    --olive-600: #556b2f;
+    --olive-700: #425524;
+    --olive-800: #35441e;
+    --olive-900: #2c381a;
+    --stone-50: #fafaf9;
+    --stone-100: #f4f6f4;
+    --stone-200: #e7eae6;
+    --stone-300: #d6dbd4;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: #1a2016;
+    font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom scrollbars and utility animation */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f6f4;
+}
+::-webkit-scrollbar-thumb {
+  background: #cdd4c8;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #556b2f;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.03); }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 3s ease-in-out infinite;
+}
