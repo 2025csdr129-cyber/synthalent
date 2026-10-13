@@ -1,16 +1,37 @@
-# React + Vite
+# Synthalent (Kampus.VC) 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> **AI-Powered Content Creator Marketplace & Dynamic Creative Ecosystem**
 
-Currently, two official plugins are available:
+Synthalent is a next-generation, prompt-driven marketplace that bridges the gap between AI-native creators (animators, prompt engineers, digital artists) and enterprise brands[cite: 1]. It streamlines discovery, brief generation, and project execution through secure server-side AI integrations and robust access controls.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌟 Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Role-Based Access Guards:** Strict route protection and customized workspace views tailored specifically for "Creators" versus "Brands"[cite: 1].
+* **Interactive Discovery Grid:** Responsive portfolio cards, advanced search parameters, multi-criteria filtering, and smooth modal profiles[cite: 1].
+* **Prompt-to-Brief Engine:** Natural language text input that automatically generates structured project scopes, dynamic ETAs, and technical requirements[cite: 1].
+* **Secure State Management:** Zustand integration for persistent sign-in sessions, marketplace filtering, search queries, active briefs, and live notifications[cite: 1].
+* **Secure Server-Side LLM:** Configured to handle Groq API credentials securely on the server with resilient fallback mock generators[cite: 1].
+* **UI/UX Resilience:** Built-in error boundaries, loading skeletons, thorough form validation, and fully responsive mobile navigation drawers[cite: 1].
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Tech Stack
+
+* **Frontend:** React, Vite, Tailwind CSS, Lucide Icons[cite: 1]
+* **State Management:** Zustand[cite: 1]
+* **Routing:** React Router DOM
+* **AI Integration:** Groq API / Server-side LLM handlers[cite: 1]
+* **Quality Assurance:** ESLint, TypeScript[cite: 1]
+
+---
+
+## ⚙️ Getting Started & Installation
+
+Follow these steps to set up and run the project locally in your development environment:
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/your-username/synthalent.git](https://github.com/your-username/synthalent.git)
+cd synthalent
