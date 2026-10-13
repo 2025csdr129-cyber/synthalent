@@ -28,34 +28,41 @@ Synthalent is a next-generation, prompt-driven marketplace that bridges the gap 
 ---
 
 ## ⚙️ Getting Started & Installation
-
-Follow these steps to set up and run the project locally in your development environment:
-
-### 1. Clone the Repository
-```bash
-git clone [https://github.com/your-username/synthalent.git](https://github.com/your-username/synthalent.git)
+# Clone the repository
+git clone https://github.com/your-username/synthalent.git
 cd synthalent
 
-
+# Install project dependencies
 npm install
-cp .env.example .env
-npm run dev
-# Run production build compilation check
-npm run build
 
-# Run code linting
+# Set up environment variables configuration template
+cp .env.example .env
+
+# Run the local development server
+npm run dev
+
+# Run build compilation and lint checks for validation
+npm run build
 npm run lint
 synthalent/
-├── dist/                # Production build output
+├── dist/                # Production build distribution output
 ├── node_modules/        # Project dependencies
-├── public/              # Static assets & favicons
+├── public/              # Static assets, icons, and favicons
 ├── src/
-│   ├── components/      # UI components & feature modules
-│   ├── store/           # Zustand state stores
-│   ├── App.tsx          # Main application router & layout
+│   ├── components/      # UI components, discovery grid, and brief generators
+│   ├── store/           # Zustand state persistence stores
+│   ├── App.tsx          # Main application router and core layout
 │   └── main.tsx         # Application entry point
-├── .env.example         # Environment variables template
-├── .oxlintrc.json       # Linter configuration
-├── package.json         # Project dependencies & scripts
+├── .env.example         # Environment variables configuration template
+├── .oxlintrc.json       # Linter configuration rules
+├── package.json         # Project dependencies and script runner configurations
 └── README.md            # Project documentation
+###Future Roadmap
+Database Integration: Implementation of live PostgreSQL/MongoDB persistence layers.
+
+Real-Time Collaboration: Real-time messaging and collaborative brief-editing workspaces.
+
+Containerized Deployment: Dockerized configuration optimized for cloud serverless and Vercel hosting.
+
+Follow these steps to set up and run the project locally in your development environment:
 
