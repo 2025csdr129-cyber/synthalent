@@ -35,3 +35,27 @@ Follow these steps to set up and run the project locally in your development env
 ```bash
 git clone [https://github.com/your-username/synthalent.git](https://github.com/your-username/synthalent.git)
 cd synthalent
+
+
+npm install
+cp .env.example .env
+npm run dev
+# Run production build compilation check
+npm run build
+
+# Run code linting
+npm run lint
+synthalent/
+├── dist/                # Production build output
+├── node_modules/        # Project dependencies
+├── public/              # Static assets & favicons
+├── src/
+│   ├── components/      # UI components & feature modules
+│   ├── store/           # Zustand state stores
+│   ├── App.tsx          # Main application router & layout
+│   └── main.tsx         # Application entry point
+├── .env.example         # Environment variables template
+├── .oxlintrc.json       # Linter configuration
+├── package.json         # Project dependencies & scripts
+└── README.md            # Project documentation
+
